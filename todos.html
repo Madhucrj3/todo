@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todos.css">
+   
+    <title>To Dos</title>
+</head>
+<body>
+    <div class="todos">
+        <h1 class="todossss">TODOS</h1>
+        <div class="todoshead">
+            <h1 class="createh1">Create <span class="taskh1">Task</span></h1>
+            <input class="taskinputc" id="taskinput" type="text" placeholder="Whats need to be done?">
+            <button onclick="myfunc()">Add</button>
+        </div>
+        <div class="todosbody">
+            <h1 class="createh1">My <span class="taskh1">Tasks</span></h1>
+            <ul class="todobodyclass" id="uliffdbody">
+            </ul>
+            <button onclick="savefun()">Save</button>
+        </div>
+    </div>
+    <script src="todos.js"></script>
+</body>
+</html>
